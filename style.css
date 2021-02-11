@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     overflow-x: hidden;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+     z-index: 2;
+     padding: 10px;
+}
+.search-section{
+    display: flex;
+}
+.search{
+    width: 350px;
+     height: 50px;
+     padding-left: 10px;
+      font-family: 'Baloo Bhaina 2', cursive;
+}
+.btn-search{
+    width: 50px;
+    height: 50px;
+    background: url('img/search.png');
+    background-repeat: no-repeat;
+    padding: 20px;
+    border: none;
+    background-color: #f6e300;
+    border-radius: 5%;
+    background-position: center
+}
+.buy{
+    float:right;
+}
+.shoppingicon{
+    float: right;
+    margin-right: -260px;
+}
+.buy{
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 17px;
+    padding-top: 20px;
+}
+.container{
+    margin-top: 70px;
+    width: 100%;
+}
+.social{
+   float: right;
+  margin-top: -40px;
+}
+ul{
+    display: flex;
+   list-style-type: none;
+
+}
+li{
+    padding-right: 20px;
+}
+.bannerpic{
+    margin: -50px 0px 0px -125px;
+     z-index: 0;
+}
+.btnlearning{
+    display: flex;
+    margin: -22.5% 0px 0px 40%;
+    z-index: 1;
+}
+.learnword{
+    width: 155px;
+    height: 50px;
+    background-color: #e16d00;
+    color: white;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 17px;
+    padding:15px 0px 0px 15px
+}
+.btn-learn{
+    width: 50px;
+    float: right;
+    height: 50px;
+    background-color: #cd6402;
+    border: none;
+    color:white;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 30px;
+    padding:5px 0px 0px 0px
+}
+.category{
+    margin-top: 300px;
+}
+.cattitle{
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 27px;
+    text-align: center;
+    color: #32355d;
+}
+.sub-category{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.category1{
+    background-color: #c2e2ff;
+}
+.line1,.line2,.line3,.line4{
+    float:left;
+    margin:10px 0px 0px 10px;
+}
+.moon{
+    position: absolute;
+    margin: 80px 0px 0px 50px;
+}
+.baby{
+    margin: 150px 0px 0px 50px;
+    font-weight: 700;
+     font-size: 20px;
+}
+.lorem{
+    margin: 180px 0px 0px 50px;
+    width: 170px;
+    font-size: 13px;
+}
+.baby,.lorem{
+    position: absolute;
+    font-family: 'Quicksand', sans-serif;
+}
+.category2{
+    background-color: #fff5dd;
+}
+.category3{
+    background-color: #fcdcdd;
+}
+.category4{
+    background-color: #cff69c;
+}
+.category1,.category2,.category3,.category4{
+    width: 265px;
+    height: 266px;
+}
+.banner2{
+    margin-top: 100px;
+}
+.Inquirenword{
+    width: 155px;
+    height: 50px;
+    background-color: #e1187f;
+    color: white;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 17px;
+    padding:15px 0px 0px 15px
+}
+.btn-inquire{
+    width: 50px;
+    float: right;
+    height: 50px;
+    background-color: #ba156a;
+    border: none;
+    color:white;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 30px;
+    padding:5px 0px 0px 0px
+}
+.loremword{
+    margin: 0px 0px 0px 50px;
+    width: 300px;
+     font-family: 'Quicksand', sans-serif;
+     font-size: 30px;
+     font-weight: 700;
+     color:#32355d;
+}
+.btninq{
+    display: flex;
+    flex-direction: column;
+    margin: -22.5% 0px 0px 0px;
+    z-index: 1;
+}
+.inner-inq{
+    display: flex;
+    margin: 20px 0px 0px 50px;
+}
+.loreminnerword{
+     font-family: 'Quicksand', sans-serif;
+     width: 300px;
+     font-size: 15px;
+     font-weight: 300;
+     color:black;
+      margin: 0px 0px 0px 50px;
+}
+.products-section{
+    margin-top: 200px;
+}
+.product-title{
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 27px;
+    text-align: center;
+    color: #32355d;
+     font-weight: 700;
+     margin-bottom: 50px;
+}
+.product-sub{
+     font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 20px;
+    color:#32355d;
+     justify-content: center;
+}
+.three-prod{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+.product{
+    display: relative;
+    margin: -80px 0px 0px 35px;
+}
+.product1{;
+    background-color: #c2e2ff;
+}
+.product2{
+    background-color: #fff5dd;
+}
+.product3{
+    background-color: #fcdcdd;
+}
+.product1,.product2,.product3{
+    width: 345px;
+    height: 200px;
+    border-radius: 5%;
+}
+.desc-prod{
+     font-family: 'Baloo Bhaina 2', cursive;
+     width: 250px;
+    font-size: 20px;
+    font-weight: 700;
+    margin:15px 0px 0px 50px;
+}
+.desc-prod2{
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 20px;
+    font-weight: 700;
+    margin:0px 0px 0px 95px;
+}
+.blog{
+    margin-top: 200px;
+}
+.lyingpic{
+    width: 445px;
+    height: 400px;
+    float: right;
+    margin: -400px 0px 0px 0px;
+}
+.blog-color{
+    height: 400px;
+    background-color: #c2e2ff;
+}
+.blog-title{
+     font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 27px;
+    text-align: center;
+    color: #32355d;
+     font-weight: 700;
+     margin-bottom: 50px;
+}
+.sub-blog{
+    float:left;
+     margin:100px 0px 0px 100px;
+     font-family: 'Baloo Bhaina 2', cursive;
+     font-weight: 300;
+    font-size: 15px;
+}
+.sub-title{
+    float:left;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size:30px;
+    color: #32355d;
+     font-weight: 800;
+    margin:120px 0px 0px -187px;
+}
+.sub-des{
+    float:left;
+    width: 510px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size:20px;
+    color: black;
+     font-weight: 300;
+    margin:180px 0px 0px -187px;
+}
+.inner-blog{
+     display: flex;
+     float: left;
+    margin: 300px 0px 0px -507px;
+}
+.babypic{
+    display: absolute;
+    width: 345px;
+    height: 240px;
+    float: left;
+    margin: 0px 0px 0px 0px;
+}
+.blog1{
+    background-color: #fff5dd;
+}
+.blog2{
+    background-color: #fcdcdd
+}
+.blog3{
+    background-color: #cff69c;
+}
+.blog1,.blog2,.blog3{
+    width: 345px;
+    height: 340px; 
+}
+.baby-blog{
+    margin: 30px 0px 0px 40px;
+}
+.baby-title{
+     float:left;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size:25px;
+    color: #32355d;
+     font-weight: 800;
+     margin: -0px 0px 0px 40px;
+}
+.footer{
+    display: flex;
+    margin: 50px 20px 0px 20px;
+}
+.footer-line{
+     margin: 150px 20px 0px 20px;
+}
+.footer-title{
+    margin-top: 100px;
+     font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 27px;
+    color: black;
+     font-weight: 700;
+     margin-bottom: 50px;
+}
+.footer-des{
+    width: 670px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 15px;
+    margin-top: -10px;
+}
+.footer-des2{
+    width: 700px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 15px;
+}
+.social2{
+    margin-top:20px;
+}
+.footer-nav{
+   margin-top: 100px;
+     font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 20px;
+    color: black;
+     font-weight: 700;
+     margin-bottom: 30px;
+}
+.inner3{
+    margin-left: -400px;
+}
+.copy{
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 15px;
+    margin-top:50px;
+    text-align: center;
+}
